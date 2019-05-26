@@ -1,0 +1,9 @@
+D:\Projects\LifeSupport\Assemblies\LifeSupport.dll
+D:\Projects\LifeSupport\LifeSupport\obj\Debug\LifeSupport.csprojAssemblyReference.cache
+D:\Projects\LifeSupport\LifeSupport\obj\Debug\LifeSupport.csproj.CoreCompileInputs.cache
+D:\Projects\LifeSupport\LifeSupport\obj\Debug\LifeSupport.csproj.CopyComplete
+D:\Projects\LifeSupport\LifeSupport\obj\Debug\LifeSupport.dll
+D:\Projects\LifeSupport\Source\obj\Debug\LifeSupport.csprojAssemblyReference.cache
+D:\Projects\LifeSupport\Source\obj\Debug\LifeSupport.csproj.CoreCompileInputs.cache
+D:\Projects\LifeSupport\Source\obj\Debug\LifeSupport.csproj.CopyComplete
+D:\Projects\LifeSupport\Source\obj\Debug\LifeSupport.dll

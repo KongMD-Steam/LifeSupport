@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Life Support</name>
+	<author>KongMD</author>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>Life Support is a mod that adds the 'Life Support System' building. It's a linkable to Medical Beds that will prevent a pawn from dying if they lose organs.  I took this building from the mod 'Questionable Ethics' and made it a standalone mod to increase mod compatibility.
+
+	See the mod description page on Steam for more information.
+	</description>
+</ModMetaData>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>QE_LifeSupportSystem</defName>
+		<label>life support system</label>
+		<description>This machine lets the surgeon easily bypass the need for vital organs. Can give your colonist extra time they need, or be used to harvest everything from a hapless victim. It's a subsitute for any missing organ, except for the brain. Only effective when powered.</description>
+		<graphicData>
+            <texPath>Things/LifeSupport</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<damageData>
+				<rectN>(0.078125,0.46875,0.859375,0.53125)</rectN>
+				<rectS>(0.078125,0.46875,0.859375,0.53125)</rectS>
+				<rectE>(0.125,0.46875,0.625,0.296875)</rectE>
+				<rectW>(0.25,0.46875,0.625,0.296875)</rectW>
+				<cornerTR>Damage/Corner</cornerTR>
+			</damageData>
+		</graphicData>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<researchPrerequisites>
+			<li>QE_LifeSupportSystem</li>
+		</researchPrerequisites>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.2</fillPercent>
+		<statBases>
+			<MaxHitPoints>175</MaxHitPoints>
+			<WorkToBuild>8000</WorkToBuild>
+			<Mass>30</Mass>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Steel>75</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+		</costList>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="LifeSupport.CompProperties_LifeSupport"/>
+		</comps>
+		<designationHotKey>Misc5</designationHotKey>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<uiIconScale>0.85</uiIconScale>
+	</ThingDef>
+
+</Defs>
