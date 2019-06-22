@@ -3,6 +3,7 @@
 	<HediffDef>
 		<defName>QE_LifeSupport</defName>
 		<label>life support system</label>
+		<isBad>False</isBad>
 		<defaultLabelColor>(0.8, 0.2, 0.2)</defaultLabelColor>
 		<hediffClass>LifeSupport.Hediff_LifeSupport</hediffClass>
 		<initialSeverity>1.0</initialSeverity>
