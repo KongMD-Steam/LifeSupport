@@ -23,7 +23,6 @@
 *.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
 *.so
 *.so.*
 *.dylib
@@ -54,3 +53,5 @@ dkms.conf
 **/.vs
 **/obj
 **/bin
+
+Assemblies/LifeSupport.dll
