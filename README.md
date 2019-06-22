@@ -22,10 +22,11 @@ Yes.
 If you built the Life Support System in a save with Questionable Ethics enabled, the building will function after adding this mod. Same deal with the Life Support hediff.
 
 ## Compatibility
-This mod makes no changes to vanilla defs. It should be compatible with virtually everything, and there are no known incompatibilities. Specific compatibility notes below:
+This mod makes no changes to vanilla defs. It should be compatible with virtually everything. Specific compatibility notes below:
 
 * All mods that add beds - No changes/patches required
 * Death Rattle - If you use this mod, you'll need [Death Rattle - Comatose](https://steamcommunity.com/sharedfiles/filedetails/?id=1553099486) to make the Life Support machine function as designed. Death Rattle Comatose provides an 'Artifical Coma' surgery that will slow down the negative effects from Death Rattle, buying you time. If you put a pawn on Life Support and they are in an artifical coma, their Death Rattle condition (like 'no pulse') will decrease to a very low severity. They will be stable until the artificial coma expires in 10 game days, at which point they will die. Use Wake-Up to get them out of the artificial coma.
+* Questionable Ethics - **Incompatible**. Both mods patch the same Harmony methods. Use Questionable Ethics Enhanced, instead.
 
 ### Harmony Patches
 * Pawn_HealthTracker.ShouldBeDeadFromRequiredCapacity() Prefix
