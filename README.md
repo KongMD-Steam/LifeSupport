@@ -32,6 +32,9 @@ This mod makes no changes to vanilla defs. It should be compatible with virtuall
 * Pawn_HealthTracker.ShouldBeDeadFromRequiredCapacity() Prefix
 * Toils_LayDown.LayDown() Postfix
 
+## Source code
+https://github.com/KongMD-Steam/LifeSupport
+
 ## Credits ## 
 * KongMD - XML, C#, Art
 * ChJees - Concept & implementation in the mod 'Questionable Ethics'. Used with permission.
